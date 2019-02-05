@@ -14,7 +14,7 @@ The main reasons that optee os is not compatible with rpi3b+ is that it target r
 
 Optee uses raspberry pi 3b dtb rather than 3b+, so we change it.
 
-Checking the pattern of the led + it's red color (4 flashes in a row) during boot means that there is a problem with the start.elf so I swapped some files from the latest ubuntu core image boot partition into the optee created partition. 
+Checking the pattern of the led + it's red color (4 flashes in a row) during boot means that there is a problem with the start.elf so I swapped some files from the latest ubuntu core image boot partition into the optee created partition (based on https://optee.readthedocs.io/building/devices/rpi3.html?fbclid=IwAR23CicZeElvW11AfLk9cj2dRxVZsDR9odzDJnGMxSTPvQkBDQpUimWNPJI#boot-sequence)
 
 Network is not available, i have managed to get it to work, might post it later till i clean it up and patch the whole 'guide' aswell (not very good with this stuff)
 
