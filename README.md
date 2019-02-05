@@ -19,6 +19,6 @@ Checking the pattern of the led + it's red color (4 flashes in a row) during boo
 Network is not available, i have managed to get it to work, might post it later till i clean it up and patch the whole 'guide' aswell (not very good with this stuff)
 
 
-### Contact
+## Contact
 
 Feel free to mail me dkarnikis(at)gmail(dot)com
